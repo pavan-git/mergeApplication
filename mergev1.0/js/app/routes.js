@@ -24,6 +24,15 @@
                                    }
                                  },
                             })
+                            .state('app.profile', {
+                                url: '/profile',
+                                views: {
+                                   'menuContent' :{
+                                      templateUrl: 'partials/home/profile.html',
+                                      controller: 'login as vm'
+                                   }
+                                 },
+                            })
                             .state('login', {
                                 url: '/login',
                                 templateUrl: 'partials/login/loginForm.html',
