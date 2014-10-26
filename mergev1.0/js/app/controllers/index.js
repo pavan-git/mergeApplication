@@ -1,0 +1,4 @@
+define([
+    './login',
+    './signup'
+], function () {});
