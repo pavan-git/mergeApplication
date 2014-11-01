@@ -1,5 +1,6 @@
 define([
-    './emailService'
+    "./emailService",
+    "./Loader"
 ], function () {
 
 });
